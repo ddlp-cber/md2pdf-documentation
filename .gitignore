@@ -1,0 +1,88 @@
+# =====================================================
+# Fichier : .gitignore
+# Créé le : 2026-02-08
+# Auteur : Cyril Bertez
+# Dernière modif : 2026-02-08
+# Modifié par : Cyril Bertez
+# Version : 1.0.0
+# Modifications :
+# - 2026-02-08 : Création initiale - CB
+# =====================================================
+
+# ===================
+# Fichiers système
+# ===================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ===================
+# Éditeurs et IDE
+# ===================
+
+# VSCode / Cursor
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.#*
+
+# ===================
+# Fichiers temporaires
+# ===================
+
+# Fichiers temporaires généraux
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# Logs
+*.log
+
+# ===================
+# Dossiers à ignorer
+# ===================
+
+# Dossiers de build ou génération (si utilisés)
+build/
+dist/
+output/
+
+# Dossiers de cache
+.cache/
+
+# ===================
+# Fichiers spécifiques au projet
+# ===================
+
+# Brouillons non finalisés (optionnel)
+# drafts/
+
+# Notes personnelles
+notes-perso/
+TODO.txt
